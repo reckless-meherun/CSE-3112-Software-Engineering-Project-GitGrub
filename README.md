@@ -4,6 +4,8 @@ _CSE-3112 Software Engineering Course Project (University of Dhaka)_
 
 GitGrub is a team-built software engineering project developed for CSE-3112. This repo contains the implementation code, design diagrams (UML/architecture), and documentation produced throughout the software lifecycle.
 
+## YouTube Link
+- https://youtu.be/wLHxbN6E81I
 ---
 ## Team
 - Meherun Farzana
@@ -14,6 +16,7 @@ GitGrub is a team-built software engineering project developed for CSE-3112. Thi
 
 - [GitGrub 🍔](#gitgrub-)
   - [Team](#team)
+  - [YouTube Link](#youtube-link)
   - [Project Overview](#project-overview)
   - [Core Features](#core-features)
   - [System Design](#system-design)
