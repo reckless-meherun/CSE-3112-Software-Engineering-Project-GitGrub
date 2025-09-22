@@ -12,26 +12,21 @@ GitGrub is a team-built software engineering project developed for CSE-3112. Thi
 
 ## Table of Contents
 
-- [Project Overview](#project-overview)
-- [Core Features](#core-features)
-- [System Design](#system-design)
-- [Tech Stack](#tech-stack)
-- [Repository Structure](#repository-structure)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Setup](#setup)
+- [GitGrub 🍔](#gitgrub-)
+  - [Team](#team)
+  - [Project Overview](#project-overview)
+  - [Core Features](#core-features)
+  - [System Design](#system-design)
+  - [Tech Stack](#tech-stack)
+  - [Repository Structure](#repository-structure)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
   - [Running the App](#running-the-app)
-  - [Environment Variables](#environment-variables)
-- [Quality: Testing, Linting, CI](#quality-testing-linting-ci)
-- [Project Management & Workflow](#project-management--workflow)
-- [Documentation](#documentation)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
-- [Team](#team)
-- [Acknowledgements](#acknowledgements)
-
----
+    - [Node.js](#nodejs)
+    - [Python (FastAPIDjangoFlask)](#python-fastapidjangoflask)
+    - [Java (Spring Boot)](#java-spring-boot)
+    - [Docker](#docker)
 
 ## Project Overview
 
