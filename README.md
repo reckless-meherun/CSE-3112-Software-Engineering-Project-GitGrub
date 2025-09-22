@@ -76,10 +76,8 @@ Add a one-paragraph summary of your architecture (tiers, DB, external deps).
 - **Testing:** [TODO: Jest / PyTest / JUnit]
 - **CI/CD:** GitHub Actions
 
----
-
 ## Repository Structure
-
+```
 ├─ Code/ # Application source code
 │ ├─ backend/
 │ └─ frontend/
@@ -87,8 +85,7 @@ Add a one-paragraph summary of your architecture (tiers, DB, external deps).
 ├─ Documents/ # SRS, design docs, user stories, test reports
 └─ README.md
 
-
----
+```
 
 ## Getting Started
 
