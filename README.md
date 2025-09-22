@@ -15,8 +15,8 @@ GitGrub is a team-built software engineering project developed for CSE-3112. Thi
 ## Table of Contents
 
 - [GitGrub 🍔](#gitgrub-)
-  - [Team](#team)
   - [YouTube Link](#youtube-link)
+  - [Team](#team)
   - [Project Overview](#project-overview)
   - [Core Features](#core-features)
   - [System Design](#system-design)
@@ -26,10 +26,8 @@ GitGrub is a team-built software engineering project developed for CSE-3112. Thi
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
   - [Running the App](#running-the-app)
-    - [Node.js](#nodejs)
-    - [Python (FastAPIDjangoFlask)](#python-fastapidjangoflask)
-    - [Java (Spring Boot)](#java-spring-boot)
-    - [Docker](#docker)
+    - [Backend (Node.js + Express)](#backend-nodejs--express)
+    - [Frontend (React)](#frontend-react)
 
 ## Project Overview
 
@@ -61,23 +59,13 @@ It includes:
 
 Artifacts are in **`Diagrams/`**:
 
-- Architecture Diagram
-- Use Case Diagram
-- Class/ER Diagram
-- Sequence Diagrams
-- Deployment Diagram
-
-Add a one-paragraph summary of your architecture (tiers, DB, external deps).
-
----
-
 ## Tech Stack
 
-- **Frontend:** [TODO: React / Vue / HTML+CSS]
-- **Backend:** [TODO: Node.js / Django / Spring Boot]
-- **Database:** [TODO: PostgreSQL / MySQL / SQLite]
-- **Testing:** [TODO: Jest / PyTest / JUnit]
-- **CI/CD:** GitHub Actions
+- **Front-end Framework:** React  
+- **Back-end Runtime/Environment:** Node.js  
+- **Database:** MongoDB  
+- **Authentication:** Auth0  
+- **Payment:** Stripe  
 
 ## Repository Structure
 ```
@@ -95,9 +83,9 @@ Add a one-paragraph summary of your architecture (tiers, DB, external deps).
 ### Prerequisites
 
 - Git ≥ 2.40  
-- Node.js ≥ 18 (with npm) OR Python ≥ 3.10 OR Java ≥ 17  
-- Docker ≥ 24 (optional)  
-- Database server (PostgreSQL/MySQL/SQLite)
+- Node.js ≥ 18 (with npm)  
+- MongoDB ≥ 6.0 (local or cloud, e.g., MongoDB Atlas)  
+- Docker ≥ 24 (optional, for containerized deployment)  
 
 ### Setup
 
@@ -106,39 +94,32 @@ Add a one-paragraph summary of your architecture (tiers, DB, external deps).
 git clone https://github.com/reckless-meherun/CSE-3112-Software-Engineering-Project-GitGrub.git
 cd CSE-3112-Software-Engineering-Project-GitGrub
 ```
-For Node.js
+Install Dependencies:
 ```
 cd Code/backend
 npm install
+
+cd ../frontend
+npm install
+
 ```
-For Python
+Create an .env file in both backend/ and frontend/ and add:
 ```
-cd Code/backend
-python -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
-```
-For Java
-```
-cd Code/backend
-./mvnw clean install
+MONGO_URI=mongodb://localhost:27017/gitgrub
+JWT_SECRET=your-secret-key
+STRIPE_SECRET_KEY=your-stripe-secret
+
 ```
 ## Running the App
 
-### Node.js
+### Backend (Node.js + Express)
 ```
+cd Code/backend
 npm run dev
-```
-### Python (FastAPI/Django/Flask)
-```
-uvicorn app: app --reload
-# or python manage.py runserver
-```
-### Java (Spring Boot)
-```
-./mvnw spring-boot:run
-```
-### Docker
-```
-docker compose up --build
-```
 
+```
+### Frontend (React)
+```
+cd Code/frontend
+npm start
+```
