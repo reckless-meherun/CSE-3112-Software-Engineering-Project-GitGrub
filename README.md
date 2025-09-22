@@ -42,15 +42,20 @@ It includes:
 
 **TL;DR**: _GitGrub is a **[TODO: one-liner project description]**._
 
----
-
 ## Core Features
 
-- **Feature 1 — [TODO: name]**
-- **Feature 2 — [TODO: name]**
-- **Feature 3 — [TODO: name]**
+- **User Management** – Customers and canteen staff can register, log in, and manage their profiles securely, with options for password recovery and role-based access control.
+- **Menu Management** – Canteen owners/managers can add, update, categorize, and remove menu items (breakfast, lunch, snacks, beverages) to keep offerings up to date.
+- **Order Processing** – Customers can browse menus, place online/offline orders, select dine-in/takeaway options, and track their order status in real time.
+- **Cart & History** – Users can manage their cart before checkout and view past order history for convenience.
+- **Inventory Management** – Managers can monitor ingredient stock levels, update inventory, and reduce wastage by ensuring availability of required items.
+- **Employee Management** – Admins can add and manage staff details, assign roles (chef, waiter, cleaner), schedule shifts, and supervise employee activities.
+- **Sales & Analytics** – Owners can track sales records, generate reports, and view analytics for insights into business performance.
+- **Review & Feedback System** – Customers can leave reviews and ratings on food items/orders, while admins can monitor feedback for continuous improvement.
+- **Transaction Management** – Provides payment options and records salary/financial transactions, ensuring accuracy and transparency.
+- **Notifications & Alerts** – Real-time updates on order readiness, status changes, or special promotions to keep customers informed.
+- **Security & Privacy** – Implements authentication, authorization, and encryption to safeguard sensitive user and financial data.
 
----
 
 ## System Design
 
